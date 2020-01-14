@@ -56,7 +56,7 @@ def condense(file_to_condense, outdir, caseSensitive):
 
 def main(infile, outdir, case_sens):
     """
-    takes in a fasta file, and an output dir.
+    takes in an aligned fasta file, and an output dir.
     Reduces the input fasta file to only colunns with differences.
     Writes that to file in the output directory - with the same filename as the input file, except with
     "_condensed.fasta" extension.
